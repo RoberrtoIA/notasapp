@@ -1,0 +1,47 @@
+name: conexcrudfirebase
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  firebase_core: ^1.7.0
+  cloud_firestore: ^2.5.3
+  auto_size_text_field: ^1.0.1
+  focused_menu: ^1.0.2
+  fluttertoast: ^8.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+#  flutter_native_splash: 0.1.8
+#
+#flutter_native_splash:
+#  color: "#ffffff"
+#  image: lib/assets/publicalo.png
+#  android: true
+#  ios: true
+#  flutter_launcher_icons: "^0.9.2"
+
+flutter_icons:
+  image_path: "lib/assets/publicalo.png"
+  android: true
+  ios: true
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  assets:
+    - lib/assets/
+
+  uses-material-design: true
+
+
